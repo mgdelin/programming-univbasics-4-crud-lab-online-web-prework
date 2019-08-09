@@ -25,17 +25,6 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
- p array[index_number]
+  p $fish_types["#{index_number}"]
 end
 
-def retrieve_first_element_from_array(array)
-  array[0]
-end
-
-def retrieve_last_element_from_array(array)
-  array[-1]
-end
-
-def update_element_from_index(array, index_number, element)
-array[index_number]=element
-end
